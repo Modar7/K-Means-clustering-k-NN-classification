@@ -86,7 +86,7 @@ groups, cdist = vq(salary_raw, centroids)
 plt.scatter(salary_raw, np.arange(0,100), c=groups)
 plt.xlabel('Salaries in (USD)')
 plt.ylabel('Indices')
-#splt.show()
+plt.show()
 
 
 
